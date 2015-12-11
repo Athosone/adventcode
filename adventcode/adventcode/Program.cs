@@ -14,6 +14,9 @@ namespace adventcode
 			Console.WriteLine("Result Jour2 part1: " + Jour2.GetResultPart1 ());
 			Console.WriteLine("Result Jour2 part2: " + Jour2.GetResultPart2 ());
 
+			//Jour3
+			Console.WriteLine("Result Jour3 part1: " + Jour3.GetResultPart1 ());
+			Console.WriteLine("Result Jour3 part2: " + Jour3.GetResultPart2 ());
 
 		}
 	}
