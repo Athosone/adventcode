@@ -23,7 +23,7 @@ namespace adventcode
 
 			//Jour4
 
-			Task j4Part1 = Task.Run (() => {
+			/*Task j4Part1 = Task.Run (() => {
 
 				Stopwatch sw = Stopwatch.StartNew();
 				Console.WriteLine("Start j4Part1");
@@ -32,9 +32,9 @@ namespace adventcode
 				sw.Stop();
 				Console.WriteLine("Time taken J4 Part1: {0} s", sw.Elapsed.TotalSeconds);
 
-			});
+			});*/
 
-			Task j4Part2 =  Task.Run (() => {
+			/*Task j4Part2 =  Task.Run (() => {
 
 				Stopwatch sw = Stopwatch.StartNew();
 				Console.WriteLine("Start j4Part2");
@@ -43,9 +43,16 @@ namespace adventcode
 				sw.Stop();
 				Console.WriteLine("Time taken J4 Part1: {0} s", sw.Elapsed.TotalSeconds);
 
-			});
-			j4Part1.Wait ();
-			j4Part2.Wait ();
+			});*/
+
+
+			//Jour 5
+
+			Console.WriteLine("Result Jour5 part1: " + Jour5.GetResultPart1 ());
+			Console.WriteLine("Result Jour5 part2: " + Jour5.GetResultPart2 ());
+			//j4Part1.Wait ();
+			//j4Part2.Wait ();
+
 			Console.WriteLine ("Done");
 		}
 	}
